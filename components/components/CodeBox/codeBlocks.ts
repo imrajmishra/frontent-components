@@ -41,10 +41,15 @@ export const codeBlocks2 = {
             placeholder="Enter name"
           />`,
   button3: `
-          <input
-            className="border rounded-lg px-3 py-2"
-            placeholder="Enter name"
-          />`,
+          <button className="group cursor-pointer relative flex h-14 items-center overflow-hidden rounded-full bg-linear-to-r from-blue-600 via-violet-600 to-purple-600 px-7 pr-16 text-sm font-semibold text-white transition-all duration-500 hover:pl-16 hover:pr-7">
+                <span className="relative z-10 tracking-wide">
+                  Let's Collaborate
+                </span>
+
+                <span className="absolute right-1 flex h-12 w-12 items-center justify-center rounded-full bg-white text-black shadow-lg transition-all duration-500 group-hover:right-[calc(100%-52px)] group-hover:rotate-45">
+                  <ArrowUpRight className="h-5 w-5" />
+                </span>
+              </button>`,
 } as const;
      
 export const codeBlocks3 = {
@@ -66,21 +71,51 @@ export const codeBlocks3 = {
 } as const;
 
 export const codeBlocks4 = {
-  button1: `
-          <input
-            className="border rounded-lg px-3 py-2"
-            placeholder="Enter name"
-          />`,
-  button2: `
-          <input
-            className="border rounded-lg px-3 py-2"
-            placeholder="Enter name"
-          />`,
-  button3: `
-          <input
-            className="border rounded-lg px-3 py-2"
-            placeholder="Enter name"
-          />`,
+  button1: 
+`
+    <button 
+    className="rounded-xl cursor-pointer border border-purple-500 bg-purple-500/10 px-6 
+    py-3 font-semibold text-purple-400 transition-all duration-300 hover:bg-purple-500 
+    hover:text-white hover:shadow-lg hover:shadow-purple-500/40"
+    >
+      Magnetic
+    </button>`,
+  button2: 
+`
+    <button 
+    className="group bg-white relative inline-flex items-center gap-2 overflow-hidden 
+    rounded-xl hover:scale-105 p-[1.5px] cursor-pointer"
+    >
+      {/* Animated Border */}
+        <span className="absolute inset-[-1000%] animate-[spin_4s_linear_infinite] 
+        bg-[conic-gradient(from_0deg,#3b82f6_0deg,#3b82f6_60deg,transparent_120deg)]" 
+        />
+      {/* Content */}
+        <span className="relative z-10 inline-flex items-center gap-2 rounded-[11px] bg-black px-5 py-2.5 text-sm font-medium text-white transition-all duration-300 group-hover:bg-zinc-950">
+            <Gem className="h-4 w-4" />
+                Get Pro
+            </span>
+    </button>`,
+  button3: 
+`
+    <button 
+    className="group cursor-pointer relative flex h-14 items-center overflow-hidden 
+    rounded-full bg-linear-to-r from-blue-600 via-violet-600 to-purple-600 px-7 pr-16 
+    text-sm font-semibold text-white transition-all duration-500 hover:pl-16 
+    hover:pr-7"
+    >
+      <span className="relative z-10 tracking-wide">
+        Let's Collaborate
+      </span>
+
+      <span 
+      className="absolute right-1 flex h-12 w-12 items-center justify-center 
+      rounded-full bg-white text-black shadow-lg transition-all duration-500 
+      group-hover:right-[calc(100%-52px)] group-hover:rotate-45"
+      >
+        <ArrowUpRight className="h-5 w-5" />
+      </span>
+    </button>`,
 } as const;
 
 export const codeBlocks5 = {
