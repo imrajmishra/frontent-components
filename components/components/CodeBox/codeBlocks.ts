@@ -101,23 +101,52 @@ export const codeBlocks4 = {
           />`,
           } as const;
 
-          export const codeBlocks6 = {
-            button1: `
-          <input
-            className="border rounded-lg px-3 py-2"
-            placeholder="Enter name"
-          />`,
-            button2: `
-          <input
-            className="border rounded-lg px-3 py-2"
-            placeholder="Enter name"
-          />`,
-            button3: `
-          <input
-            className="border rounded-lg px-3 py-2"
-            placeholder="Enter name"
-          />`,
-          } as const;
+export const codeBlocks6 = {
+  button1: `
+   <button
+      type="button"
+      className="flex items-center cursor-pointer gap-3 rounded-xl border 
+      border-zinc-200 bg-white px-5 py-3 text-sm font-medium text-zinc-700 shadow-sm 
+      transition-all duration-300 hover:scale-105 hover:shadow-lg dark:border-zinc-800 
+      dark:bg-zinc-950 dark:text-zinc-100"
+    >
+      <img
+        src="https://images.shadcnspace.com/assets/svgs/icon-linkedin.svg"
+        alt="LinkedIn"
+        className="h-5 w-5"
+      />
+        Continue with LinkedIn
+      </button>
+`,
+  button2: `
+    <button 
+      className="group cursor-pointer flex items-center gap-3 rounded-2xl border 
+     border-white/10 bg-zinc-950 px-6 py-3 text-white transition-all duration-300 
+      hover:-translate-y-1 hover:border-red-500/40 hover:shadow-[0_10px_30px_rgba(239,68,68,0.25)]"
+    >
+      <img
+        src="https://images.shadcnspace.com/assets/svgs/icon-google.svg"
+        alt=""
+        className="h-5 w-5"
+      />
+        <span>Google</span>
+    </button>
+`,
+  button3: `
+    <button 
+      className="group cursor-pointer flex items-center gap-3 rounded-2xl border 
+      border-white/10 bg-zinc-950 px-6 py-3 text-white transition-all duration-300 
+      hover:-translate-y-1 hover:border-blue-500/40 hover:shadow-[0_10px_30px_rgba(59,130,246,0.25)]"
+    >
+      <img
+          src="https://images.shadcnspace.com/assets/svgs/icon-linkedin.svg"
+          alt=""
+          className="h-5 w-5"
+      />
+        <span>LinkedIn</span>
+    </button>
+`,
+} as const;
 
 export const codeBlocks7 = {
   button1: `
