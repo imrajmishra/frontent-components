@@ -53,21 +53,33 @@ export const codeBlocks2 = {
 } as const;
      
 export const codeBlocks3 = {
-  button1: `
-          <input
-            className="border rounded-lg px-3 py-2"
-            placeholder="Enter name"
-          />`,
-  button2: `
-          <input
-            className="border rounded-lg px-3 py-2"
-            placeholder="Enter name"
-          />`,
-  button3: `
-          <input
-            className="border rounded-lg px-3 py-2"
-            placeholder="Enter name"
-          />`,
+  button1: 
+`
+    <button className="rounded-xl cursor-pointer border border-white/20 bg-white/10 
+    px-6 py-3 font-semibold text-white backdrop-blur-xl transition-all duration-300 
+    hover:bg-white/20">
+       ✨ Glass
+    </button>
+`,
+  button2: 
+`
+    <button className="rounded-xl bg-linear-to-r from-violet-600 via-purple-600 
+    to-pink-600 px-6 py-3 font-semibold text-white shadow-lg transition-all 
+    duration-300 hover:scale-105 cursor-pointer hover:shadow-purple-500/50">
+        🚀 Launch
+    </button>
+`,
+  button3: 
+`
+    <button
+      className="h-10 w-24 rounded-xl border-2 border-blue-600 text-blue-600 
+      font-medium transition-all duration-300 hover:bg-blue-600 cursor-pointer 
+      hover:text-white"
+          type="submit"
+    >
+      Login
+    </button>
+`,
 } as const;
 
 export const codeBlocks4 = {
