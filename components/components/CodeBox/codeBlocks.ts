@@ -3,7 +3,8 @@
 export const codeBlocks1 = {
   button1: `
   <button
-    className="group cursor-pointer relative block h-10 w-20 rounded-full bg-linear-to-br from-black to-neutral-600"
+    className="group cursor-pointer relative block h-10 w-20 rounded-full 
+    bg-linear-to-br from-black to-neutral-600"
     type="submit"
   >
     Login
@@ -12,7 +13,8 @@ export const codeBlocks1 = {
 
   button2: `
  <button
-    className="relative w-15 h-8 z-10 rounded-xl  bg-blue-600 hover:bg-blue-800 shadow-none cursor-pointer"
+    className="relative w-15 h-8 z-10 rounded-xl  bg-blue-600 hover:bg-blue-800 
+    shadow-none cursor-pointer"
     type="submit"
     >
       SignUp
@@ -21,7 +23,8 @@ export const codeBlocks1 = {
 
   button3: `
   <button
-     className="h-10 w-24 rounded-xl bg-green-600 text-white font-medium shadow-md transition-all duration-300 hover:bg-green-700 hover:-translate-y-1 cursor-pointer"
+     className="h-10 w-24 rounded-xl bg-green-600 text-white font-medium shadow-md 
+     transition-all duration-300 hover:bg-green-700 hover:-translate-y-1 cursor-pointer"
      type="submit"
   >
     Success
