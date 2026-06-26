@@ -35,7 +35,8 @@ export const codeBlocks1 = {
 export const codeBlocks2 = {
   button1: 
 `
-   <button className="rounded-xl border border-cyan-400 px-6 py-3 font-semibold 
+   <button 
+   className="rounded-xl border border-cyan-400 px-6 py-3 font-semibold 
    text-cyan-400 shadow-[0_0_15px_rgba(34,211,238,.6)] transition-all duration-300 
    hover:bg-cyan-400 hover:text-black hover:shadow-[0_0_30px_rgba(34,211,238,1)] 
     cursor-pointer"
@@ -45,16 +46,19 @@ export const codeBlocks2 = {
 `,
   button2: 
 `
-    <button className="rounded-xl border border-zinc-700 bg-linear-to-b from-zinc-800 
-    to-black px-6 py-3 font-semibold text-white shadow-xl transition-all duration-300 
-    cursor-pointer hover:border-zinc-500 hover:shadow-2xl">
-      💎 Premium
+    <button 
+      className="rounded-xl border border-zinc-700 bg-linear-to-b from-zinc-800 
+      to-black px-6 py-3 font-semibold text-white shadow-xl transition-all duration-300 
+      cursor-pointer hover:border-zinc-500 hover:shadow-2xl"
+    >
+       💎 Premium
     </button>`,
   button3: 
 `
     <button 
-    className="group relative overflow-hidden rounded-xl border-2 border-blue-600 
-    cursor-pointer px-6 py-3 font-semibold text-blue-600 transition-all duration-300">
+      className="group relative overflow-hidden rounded-xl border-2 border-blue-600 
+      cursor-pointer px-6 py-3 font-semibold text-blue-600 transition-all duration-300"
+    >
       <span 
       className="absolute inset-0 -translate-x-full bg-blue-600 transition-transform 
       duration-300 group-hover:translate-x-0" 
