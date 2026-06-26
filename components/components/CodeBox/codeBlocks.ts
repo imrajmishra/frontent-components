@@ -83,23 +83,68 @@ export const codeBlocks4 = {
           />`,
 } as const;
 
-          export const codeBlocks5 = {
-            button1: `
-          <input
-            className="border rounded-lg px-3 py-2"
-            placeholder="Enter name"
-          />`,
-            button2: `
-          <input
-            className="border rounded-lg px-3 py-2"
-            placeholder="Enter name"
-          />`,
-            button3: `
-          <input
-            className="border rounded-lg px-3 py-2"
-            placeholder="Enter name"
-          />`,
-          } as const;
+export const codeBlocks5 = {
+  button1: 
+`
+    <button
+        ref={buttonRef}
+        onMouseEnter={handleMouseEnter}
+        className="group cursor-pointer relative overflow-hidden rounded-full border 
+        border-white/10 bg-zinc-950 px-8 py-3 font-medium text-white shadow-lg 
+        transition-all duration-300 hover:shadow-[0_0_30px_rgba(59,130,246,0.4)]"
+    >
+      <span
+        className="absolute h-12 w-12 scale-0 rounded-full bg-linear-to-r from-blue-500 
+        to-cyan-400 transition-transform duration-700 ease-out group-hover:scale-[18]"
+        style={{
+          left: coords.x - 24,
+          top: coords.y - 24,
+          }}
+        />
+
+          <span className="relative z-10">Get Started</span>
+    </button>
+`,
+ button2: 
+`
+    <button
+      type="button"
+      className="flex cursor-pointer items-center gap-3 rounded-xl border 
+      border-zinc-200 bg-white px-5 py-3 text-sm font-medium text-zinc-700 shadow-sm 
+      transition-all duration-300 hover:scale-105 hover:shadow-lg dark:border-zinc-800 
+      dark:bg-zinc-950 dark:text-zinc-100"
+    >
+      <img
+          src="https://images.shadcnspace.com/assets/svgs/icon-google.svg"
+          alt="Google"
+          className="h-5 w-5"
+      />
+        Sign in with Google
+    </button>
+`,
+  button3: 
+`
+    <button
+        type="button"
+        className="flex cursor-pointer items-center gap-3 rounded-xl border 
+        border-zinc-200 bg-white px-5 py-3 text-sm font-medium text-zinc-700 shadow-sm 
+        transition-all duration-300 hover:scale-105 hover:shadow-lg 
+        dark:border-zinc-800 dark:bg-zinc-950 dark:text-zinc-100"
+    >
+      <img
+         src="https://images.shadcnspace.com/assets/svgs/icon-github.svg"
+         alt="GitHub"
+         className="h-5 w-5 dark:hidden"
+      />
+      <img
+        src="https://images.shadcnspace.com/assets/svgs/icon-github-white.svg"
+        alt="GitHub"
+        className="hidden h-5 w-5 dark:block"
+      />
+        Sign in with GitHub
+    </button>
+`,
+} as const;
 
 export const codeBlocks6 = {
   button1: `
