@@ -17,9 +17,9 @@ export default function CodeBox({ code, onClose }: CodeBoxProps) {
   };
 
   return (
-    <div className="fixed inset-0 z-50 flex items-center justify-center bg-slate-950/70 backdrop-blur-md">
-      <div className="relative w-full max-w-2xl ">
-        <div className="relative rounded border-2 border-dashed border-neutral-300 bg-[#fbfbf8] p-8 shadow-2xl">
+    <div className="fixed inset-0 z-50 flex items-center justify-center bg-slate-950/70 ">
+      <div className="relative w-full h-[85vh] max-w-4xl overflow-y-auto">
+        <div className="relative rounded border-2 border-dashed border-neutral-300 bg-[#fbfbf8] p-6">
           <button
             onClick={onClose}
             className="absolute right-3 top-3 cursor-pointer flex items-center gap-2 rounded-md bg-zinc-800 px-3 py-1.5 text-white"
@@ -29,7 +29,7 @@ export default function CodeBox({ code, onClose }: CodeBoxProps) {
 
           <button
             onClick={copyCode}
-            className="absolute right-15 top-3 flex items-center gap-2 rounded-md bg-zinc-800 px-3 py-1.5 text-white"
+            className="absolute cursor-copy right-15 top-3 flex  gap-2 rounded-md bg-zinc-800 px-3 py-1.5 text-white"
           >
             {copied ? <Check size={20} /> : <Copy size={20} />}
           </button>
