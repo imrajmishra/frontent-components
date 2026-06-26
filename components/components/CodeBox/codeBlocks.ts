@@ -30,26 +30,37 @@ export const codeBlocks1 = {
 } as const;
 
 export const codeBlocks2 = {
-  button1: `
-          <input
-            className="border rounded-lg px-3 py-2"
-            placeholder="Enter name"
-          />`,
-  button2: `
-          <input
-            className="border rounded-lg px-3 py-2"
-            placeholder="Enter name"
-          />`,
-  button3: `
-          <button className="group cursor-pointer relative flex h-14 items-center overflow-hidden rounded-full bg-linear-to-r from-blue-600 via-violet-600 to-purple-600 px-7 pr-16 text-sm font-semibold text-white transition-all duration-500 hover:pl-16 hover:pr-7">
-                <span className="relative z-10 tracking-wide">
-                  Let's Collaborate
-                </span>
-
-                <span className="absolute right-1 flex h-12 w-12 items-center justify-center rounded-full bg-white text-black shadow-lg transition-all duration-500 group-hover:right-[calc(100%-52px)] group-hover:rotate-45">
-                  <ArrowUpRight className="h-5 w-5" />
-                </span>
-              </button>`,
+  button1: 
+`
+   <button className="rounded-xl border border-cyan-400 px-6 py-3 font-semibold 
+   text-cyan-400 shadow-[0_0_15px_rgba(34,211,238,.6)] transition-all duration-300 
+   hover:bg-cyan-400 hover:text-black hover:shadow-[0_0_30px_rgba(34,211,238,1)] 
+    cursor-pointer"
+    >
+      ⚡ Neon
+    </button>
+`,
+  button2: 
+`
+    <button className="rounded-xl border border-zinc-700 bg-linear-to-b from-zinc-800 
+    to-black px-6 py-3 font-semibold text-white shadow-xl transition-all duration-300 
+    cursor-pointer hover:border-zinc-500 hover:shadow-2xl">
+      💎 Premium
+    </button>`,
+  button3: 
+`
+    <button 
+    className="group relative overflow-hidden rounded-xl border-2 border-blue-600 
+    cursor-pointer px-6 py-3 font-semibold text-blue-600 transition-all duration-300">
+      <span 
+      className="absolute inset-0 -translate-x-full bg-blue-600 transition-transform 
+      duration-300 group-hover:translate-x-0" 
+      />
+        <span className="relative group-hover:text-white">
+            📄 Explore
+        </span>
+  </button>
+`,
 } as const;
      
 export const codeBlocks3 = {
